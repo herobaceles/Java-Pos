@@ -2,7 +2,7 @@ package models;
 
 public class Products {
 
-    Burger[] burgers= new Burger[5];
+    Burger[] burgers= new Burger[6];
 
     public Products()
     {
@@ -11,7 +11,7 @@ public class Products {
         burgers[2] = new Burger("Spicy Jalapeño Crunch", 9.99);
         burgers[3] = new Burger("Bacon Ranch Deluxe", 10.25);
         burgers[4] = new Burger("Mushroom Swiss Melt", 9.75);
-
+        burgers[5] = new Burger(" Swiss Melt", 7.75);
     };
 
     public Burger[] getAllBurgers() {
